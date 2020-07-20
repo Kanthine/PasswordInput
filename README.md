@@ -1,6 +1,12 @@
 # PasswordInput
 自定义密码输入框
 
+开发中很多地方都会遇到密码输入，输入框是自定义的 UI 样式，如下图所示：
+
+<p align="center" >
+  <img src="https://upload-images.jianshu.io/upload_images/7112462-adfe8c5ea7735d39.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="PasswordInput" title="PasswordInput">
+</p>
+
 要自定义一个密码输入框，其中核心是实现 [`UIKeyInput`](https://developer.apple.com/documentation/uikit/uikeyinput?language=objc) 协议！该协议用来实现简单文本输入，当实现该协议的实例是第一响应时，系统键盘就会显示出来！
 
 ```
